@@ -1,0 +1,12 @@
+a= input("First item name: ")
+b= input("Second item name: ")
+c= input("Third item name: ")
+d= input("1st item price: ")
+e= input("2nd item price: ")
+f= input("3rd item price: ")
+g= (d+e+f)
+print("Our shop is having a discount of 5%")
+print("So your total money to pay without discount is -"),print(("₹"),int(d)+int(e)+int(f))
+print("And your total money to pay including discount is -"),print(("₹"),(float(0.95)*(int(d)+int(e)+int(f))))
+
+            
